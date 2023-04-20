@@ -1,4 +1,4 @@
-/* ::>> -- Count down Timer -- <<:: */
+/* ::>> -- Count Down Timer -- <<:: */
 
 'use strict';
 
@@ -35,7 +35,7 @@ let setSeconds = false;
 let setHours = false;
 
 
-/* :: justification functions :: */
+/* :::::::::: justification functions :::::::::: */
 
 hourSet.addEventListener('click',()=>{ 
     setHours = true;
@@ -148,7 +148,8 @@ function downSec(){
 };
 
 
-/* :: timer functions :: */
+
+/* :::::::::::::::::  timer functions :::::::::::::::: */
 
 function resetTimer(){
 
